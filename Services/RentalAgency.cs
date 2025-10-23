@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using RentCarApp.Abstracts;
@@ -29,7 +29,7 @@ namespace RentCarApp.Services
 
         public void ShowAllVehicles()
         {
-            Console.WriteLine("=== Vehicle List ===");
+            Console.WriteLine("== Vehicle List ==");
             foreach (var v in _vehicles)
                 Console.WriteLine(v.GetInfo());
         }
